@@ -1,0 +1,9 @@
+{
+  "name": "ionic4-autocomplete",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^8.0.0",
+    "@angular/core": "^8.0.0",
+    "@ionic/angular": "^4.0.0"
+  }
+}

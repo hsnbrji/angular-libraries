@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ionic4-autocomplete": [
+        "dist/ionic4-autocomplete"
+      ],
+      "ionic4-autocomplete/*": [
+        "dist/ionic4-autocomplete/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
