@@ -3,5 +3,8 @@
   "dest": "../../dist/ionic4-autocomplete",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "whitelistedNonPeerDependencies": [
+    "@ionic/angular"
+  ]
 }
