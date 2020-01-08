@@ -1,6 +1,6 @@
 {
   "name": "ion4-autocomplete",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "peerDependencies": {
     "@angular/common": "^8.0.0",
     "@angular/core": "^8.0.0",
@@ -16,6 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/hsnbrji/angular-libraries.git"
   },
+  "license": "MIT",
   "keywords": [
     "ionic",
     "autocomplete",
