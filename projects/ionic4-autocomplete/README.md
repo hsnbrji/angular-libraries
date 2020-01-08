@@ -16,7 +16,7 @@ import { NgModule } from '@angular/core';
 import { IonicApp, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 ...
-import { AutocompleteModule } from "ionic4-calendar";
+import { AutocompleteModule } from "ion4-autocomplete";
  
 @NgModule({
   declarations: [
