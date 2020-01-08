@@ -1,0 +1,12 @@
+<ion-item lines="none">
+  <ion-label position="floating">{{placeholder}}</ion-label>
+  <ion-input autocomplete="off" type="text" name="autocomplete" [(ngModel)]="inputValue"
+             (focus)="handleFocus()" (click)="filter(inputValue)" (focusout)="hideSuggestions()"
+             (keyup)="keyUpCallbackHandler($event)" [readonly]="readonly"></ion-input>
+</ion-item>
+
+<ion-list *ngIf="filteredSuggestions && filteredSuggestions.length > 0" >
+  <ion-item (mouseenter)="hoverSuggestion(i)" [ngClass]="{'hovered': hoveredIndex===i}" lines="none" (click)="itemClickCallbackHandler(suggestion)" *ngFor="let suggestion of filteredSuggestions; let i = index">
+    <ion-label>{{suggestion[labelField]}}</ion-label>
+  </ion-item>
+</ion-list>
