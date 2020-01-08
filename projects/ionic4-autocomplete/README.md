@@ -40,7 +40,7 @@ export class AppModule {}
 ```HTML
 <ion-autocomplete [suggestions]="customers"
                   (itemSelected)="customerSelected($event)"
-                  [ngModel]="customerId">
+                  [(ngModel)]="customerId">
 </ion-autocomplete>
 ```
 ```TYPESCRIPT
