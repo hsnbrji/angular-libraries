@@ -2,6 +2,7 @@
 
 Autocomplete component for ionic 4.
 
+![](demo/autocomplete.gif)
 ## Support
 * @ionic/angular `4.0.0`
 
