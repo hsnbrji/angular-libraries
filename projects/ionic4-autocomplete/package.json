@@ -5,5 +5,12 @@
     "@angular/common": "^8.0.0",
     "@angular/core": "^8.0.0",
     "@ionic/angular": "^4.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsnbrji/angular-libraries.git"
+  },
+  "keywords": [
+    "ionic", "autocomplete", "ionic4"
+  ]
 }
