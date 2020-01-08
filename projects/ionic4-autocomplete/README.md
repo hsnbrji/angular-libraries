@@ -2,7 +2,7 @@
 
 Autocomplete component for ionic 4.
 
-![](demo/autocomplete.gif)
+[![autocomplete999901aca1eb60ad.gif](https://s5.gifyu.com/images/autocomplete999901aca1eb60ad.gif)](https://gifyu.com/image/m0Hb)
 ## Support
 * @ionic/angular `4.0.0`
 
