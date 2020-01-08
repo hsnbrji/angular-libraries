@@ -1,6 +1,6 @@
 {
-  "name": "ionic4-autocomplete",
-  "version": "1.0.2",
+  "name": "ion4-autocomplete",
+  "version": "1.0.3",
   "peerDependencies": {
     "@angular/common": "^8.0.0",
     "@angular/core": "^8.0.0",
@@ -9,7 +9,9 @@
   "dependencies": {
     "@ionic/angular": "^4.0.0"
   },
-
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hsnbrji/angular-libraries.git"
