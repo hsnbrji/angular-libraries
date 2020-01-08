@@ -8,7 +8,7 @@ Autocomplete component for ionic 4.
 ## Usage
 ### Installation
 ```BASH
-npm i ionic4-autocomplete
+npm i ion4-autocomplete
 ```
 ### Import Module
 ```TYPESCRIPT
